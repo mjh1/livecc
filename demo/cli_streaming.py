@@ -277,6 +277,7 @@ if __name__ == '__main__':
     
     # Create frame buffer
     frame_buffer = LiveFrameBuffer(
+        #buffer_size=1000,
         max_pixels=args.max_pixels,
         fps=args.fps
     )
